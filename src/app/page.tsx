@@ -101,7 +101,7 @@ export default function Home() {
           - خیابان طالقانی - کوچه سفید - باغ تالار سفید
         </p>
         <Link
-          href="https://www.google.com/maps?daddr=35.7682419,51.0310068"
+          href="https://www.google.com/maps/place/Sefid+Garden+Hall/@35.7688964,51.0301933,17z/data=!4m15!1m8!3m7!1s0x3f8debf530f37cd7:0x4b3687cde11586b9!2sSefid+Garden+Hall!8m2!3d35.7688921!4d51.0327736!10e4!16s%2Fg%2F11rfb4njlg!3m5!1s0x3f8debf530f37cd7:0x4b3687cde11586b9!8m2!3d35.7688921!4d51.0327736!16s%2Fg%2F11rfb4njlg?entry=ttu&g_ep=EgoyMDI0MDkwNC4wIKXMDSoASAFQAw%3D%3D"
           target="_blank"
           className="font-bold text-center text-[#4D4A23] bg-[#807B3B0F] border border-[#807B3B] p-3 rounded-3xl w-full"
         >
