@@ -1,8 +1,32 @@
+"use client";
+
 import { AlexBrushFont } from "@dorna-alireza/fonts/alex-brush";
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    const websiteMusic = new Audio("/sounds/music.mp3");
+    const handleInteraction = () => {
+      if (websiteMusic) {
+        websiteMusic.play();
+      }
+    };
+
+    window.addEventListener("click", handleInteraction);
+    window.addEventListener("scroll", handleInteraction);
+    window.addEventListener("mousemove", handleInteraction);
+    window.addEventListener("touchstart", handleInteraction);
+    window.addEventListener("touchmove", handleInteraction);
+
+    return () => {
+      window.removeEventListener("click", handleInteraction);
+      window.removeEventListener("scroll", handleInteraction);
+      window.removeEventListener("mousemove", handleInteraction);
+    };
+  }, []);
+
   return (
     <div className="relative flex justify-center items-center">
       <div className="w-[390px] px-4 flex flex-col items-center justify-center">
