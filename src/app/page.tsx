@@ -50,7 +50,7 @@ export default function Home() {
           height={32}
           className="w-[342px] h-[32px] my-28"
         />
-        <p className="text-2xl text-center my-10 text-[#404040]">
+        <p className="text-2xl text-center mb-10 text-[#404040]">
           حضور شما در این بزم نشانه پاک‌ترین محبت‌هاست
         </p>
         <div className="flex justify-between w-full">

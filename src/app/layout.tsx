@@ -14,6 +14,22 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: "Dorna & Alireza",
   description: "Wedding Ceremony",
+  openGraph: {
+    title: "Dorna & Alireza",
+    description: "Wedding Ceremony",
+    url: "https://dorna-alireza.vercel.app/",
+    siteName: "Dorna & Alireza",
+    images: [
+      {
+        url: "/images/hero.png",
+        width: 382,
+        height: 450,
+        alt: "Dorna & Alireza",
+      },
+    ],
+    locale: "fa",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
