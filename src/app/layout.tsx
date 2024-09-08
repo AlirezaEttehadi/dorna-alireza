@@ -12,8 +12,8 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "درنا و علیرضا",
-  description: "حضور شما در این بزم نشانه پاک‌ترین محبت‌هاست",
+  title: "Dorna & Alireza",
+  description: "Wedding Ceremony",
 };
 
 export default function RootLayout({
