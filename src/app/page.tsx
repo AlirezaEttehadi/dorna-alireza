@@ -1,5 +1,6 @@
 import { AlexBrushFont } from "@dorna-alireza/fonts/alex-brush";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -99,9 +100,13 @@ export default function Home() {
           جاده مخصوص کرج - بعد از میدان اتمسفر - اولین دور برگردان به سمت تهران
           - خیابان طالقانی - کوچه سفید - باغ تالار سفید
         </p>
-        <button className="font-bold text-[#4D4A23] bg-[#807B3B0F] border border-[#807B3B] p-3 rounded-3xl w-full">
+        <Link
+          href="https://www.google.com/maps?daddr=35.7682419,51.0310068"
+          target="_blank"
+          className="font-bold text-center text-[#4D4A23] bg-[#807B3B0F] border border-[#807B3B] p-3 rounded-3xl w-full"
+        >
           مسیریابی
-        </button>
+        </Link>
         <Image
           src="/images/bottom.png"
           alt="bottom image"
