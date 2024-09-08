@@ -11,16 +11,16 @@ export default function Home() {
           alt="top left image"
           width={117}
           height={80}
-          className="w-[117px] h-[80px] left-3 top-11 absolute"
+          className="w-[117px] h-[80px] left-3 top-3 absolute"
         />
         <Image
           src="/images/top-right.png"
           alt="top right image"
           width={117}
           height={80}
-          className="w-[117px] h-[80px] right-3 top-11 absolute"
+          className="w-[117px] h-[80px] right-3 top-3 absolute"
         />
-        <div className="pt-28">
+        <div className="pt-16">
           <Image
             src="/images/hero.png"
             alt="hero image"
