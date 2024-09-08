@@ -14,9 +14,6 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: "Dorna & Alireza",
   description: "Wedding Ceremony",
-  openGraph: {
-    images: "/images/hero.png",
-  },
 };
 
 export default function RootLayout({
