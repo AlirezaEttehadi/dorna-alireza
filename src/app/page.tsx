@@ -90,9 +90,9 @@ export default function Home() {
             <Image
               src="/images/year.png"
               alt="year image"
-              width={173}
+              width={195}
               height={238}
-              className="w-[173px] h-[238px]"
+              className="w-[195px] h-[238px]"
             />
           </div>
         </div>
