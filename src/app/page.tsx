@@ -11,14 +11,28 @@ export default function Home() {
           alt="top left image"
           width={117}
           height={80}
-          className="w-[117px] h-[80px] left-3 top-3 absolute"
+          className="w-[117px] h-[80px] left-3 top-3 absolute sm:fixed"
         />
         <Image
           src="/images/top-right.png"
           alt="top right image"
           width={117}
           height={80}
-          className="w-[117px] h-[80px] right-3 top-3 absolute"
+          className="w-[117px] h-[80px] right-3 top-3 absolute sm:fixed"
+        />
+        <Image
+          src="/images/bottom-left.png"
+          alt="bottom left image"
+          width={117}
+          height={80}
+          className="w-[117px] h-[80px] left-3 bottom-3 absolute sm:fixed"
+        />
+        <Image
+          src="/images/bottom-right.png"
+          alt="bottom right image"
+          width={117}
+          height={80}
+          className="w-[117px] h-[80px] right-3 bottom-3 absolute sm:fixed"
         />
         <div className="pt-16">
           <Image
