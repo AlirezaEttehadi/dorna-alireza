@@ -52,12 +52,26 @@ export default function Home() {
         <p className="text-2xl text-center my-10 text-[#404040]">
           حضور شما در این بزم نشانه پاک‌ترین محبت‌هاست
         </p>
-        <div>
-          <div className="flex justify-between items-start">
-            <div className="flex flex-col h-full items-center justify-between">
+        <div className="flex justify-between w-full">
+          <div className="flex flex-col">
+            <div className="flex flex-col h-full items-center gap-2">
               <div className="font-bold text-xl text-[#404040]">موعد دیدار</div>
               <div className="border-l border-[#3333334D] h-[182px]" />
             </div>
+            <div className="flex flex-col h-full items-center gap-2">
+              <div className="font-bold text-xl text-[#404040]">
+                شنبه۷ مهرماه ۱۴۰۳
+              </div>
+              <div className="border-l border-[#3333334D] h-[182px]" />
+            </div>
+            <div className="flex flex-col h-full items-center gap-2">
+              <div className="font-bold text-xl text-[#404040]">
+                از ساعت ۱۹:۳۰ الی ۲۴
+              </div>
+              <div className="border-l border-[#3333334D] h-[182px]" />
+            </div>
+          </div>
+          <div className="flex flex-col">
             <Image
               src="/images/day.png"
               alt="day image"
@@ -65,14 +79,6 @@ export default function Home() {
               height={238}
               className="w-[173px] h-[238px]"
             />
-          </div>
-          <div className="flex justify-between items-start">
-            <div className="flex flex-col h-full items-center justify-between">
-              <div className="font-bold text-xl text-[#404040]">
-                شنبه۷ مهرماه ۱۴۰۳
-              </div>
-              <div className="border-l border-[#3333334D] h-[182px]" />
-            </div>
             <Image
               src="/images/month.png"
               alt="month image"
@@ -80,14 +86,6 @@ export default function Home() {
               height={238}
               className="w-[173px] h-[238px]"
             />
-          </div>
-          <div className="flex justify-between items-start">
-            <div className="flex flex-col h-full items-center justify-between">
-              <div className="font-bold text-xl text-[#404040]">
-                از ساعت ۱۹:۳۰ الی ۲۴
-              </div>
-              <div className="border-l border-[#3333334D] h-[182px]" />
-            </div>
             <Image
               src="/images/year.png"
               alt="year image"
