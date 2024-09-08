@@ -10,7 +10,6 @@ export default function Home() {
     const websiteMusic = new Audio("/sounds/music.mp3");
     const handleInteraction = () => {
       if (websiteMusic) {
-        websiteMusic.loop = true;
         websiteMusic.play();
       }
     };
