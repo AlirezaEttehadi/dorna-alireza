@@ -72,7 +72,7 @@ export default function Home() {
               <div className="border-l border-[#3333334D] h-[182px]" />
             </div>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col items-end">
             <Image
               src="/images/day.png"
               alt="day image"
@@ -112,7 +112,14 @@ export default function Home() {
           alt="bottom image"
           width={342}
           height={32}
-          className="w-[342px] h-[32px] my-6"
+          className="w-[342px] h-[32px] mt-6 mb-48 xs:mb-20"
+        />
+        <Image
+          src="/images/envelop.png"
+          alt="top left image"
+          width={430}
+          height={200}
+          className="w-[430px] h-[200px] bottom-0 fixed xs:hidden"
         />
       </div>
     </div>
