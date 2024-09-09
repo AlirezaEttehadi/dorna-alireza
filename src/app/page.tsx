@@ -25,6 +25,8 @@ export default function Home() {
       window.removeEventListener("click", handleInteraction);
       window.removeEventListener("scroll", handleInteraction);
       window.removeEventListener("mousemove", handleInteraction);
+      window.removeEventListener("touchstart", handleInteraction);
+      window.removeEventListener("touchmove", handleInteraction);
     };
   }, []);
 
