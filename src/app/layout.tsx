@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "Dorna & Alireza",
     images: [
       {
-        url: "/images/hero.png",
+        url: "https://dorna-alireza.ir/images/hero.png",
         width: 382,
         height: 450,
         alt: "Dorna & Alireza",
