@@ -146,13 +146,36 @@ export default function Home() {
           جاده مخصوص کرج - بعد از میدان اتمسفر - اولین دور برگردان به سمت تهران
           - خیابان طالقانی - کوچه سفید - باغ تالار سفید
         </p>
-        <Link
-          href="https://www.google.com/maps/place/Sefid+Garden+Hall/@35.7688964,51.0301933,17z/data=!4m15!1m8!3m7!1s0x3f8debf530f37cd7:0x4b3687cde11586b9!2sSefid+Garden+Hall!8m2!3d35.7688921!4d51.0327736!10e4!16s%2Fg%2F11rfb4njlg!3m5!1s0x3f8debf530f37cd7:0x4b3687cde11586b9!8m2!3d35.7688921!4d51.0327736!16s%2Fg%2F11rfb4njlg?entry=ttu&g_ep=EgoyMDI0MDkwNC4wIKXMDSoASAFQAw%3D%3D"
-          target="_blank"
-          className="font-bold text-center text-[#4D4A23] bg-[#807B3B0F] border border-[#807B3B] p-3 rounded-3xl w-full"
-        >
-          مسیریابی
-        </Link>
+        <div className="grid grid-cols-2 gap-4 w-full">
+          <Link
+            href="https://www.google.com/maps/place/Sefid+Garden+Hall/@35.7688964,51.0301933,17z/data=!4m15!1m8!3m7!1s0x3f8debf530f37cd7:0x4b3687cde11586b9!2sSefid+Garden+Hall!8m2!3d35.7688921!4d51.0327736!10e4!16s%2Fg%2F11rfb4njlg!3m5!1s0x3f8debf530f37cd7:0x4b3687cde11586b9!8m2!3d35.7688921!4d51.0327736!16s%2Fg%2F11rfb4njlg?entry=ttu&g_ep=EgoyMDI0MDkwNC4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank"
+            className="font-bold text-center text-[#4D4A23] bg-[#807B3B0F] border border-[#807B3B] p-3 rounded-3xl"
+          >
+            گوگل‌مپ
+          </Link>
+          <Link
+            href="https://www.waze.com/live-map/directions?from=place.ChIJ13zzMPXrjT8RuYYV4c2HNks"
+            target="_blank"
+            className="font-bold text-center text-[#4D4A23] bg-[#807B3B0F] border border-[#807B3B] p-3 rounded-3xl"
+          >
+            waze
+          </Link>
+          <Link
+            href="https://balad.ir/p/%D8%A8%D8%A7%D8%BA-%D8%AA%D8%A7%D9%84%D8%A7%D8%B1-%D8%B3%D9%81%DB%8C%D8%AF-%DA%A9%D8%B1%D8%AC-PLvIgDKreTKB3H#15/35.76957/51.03737"
+            target="_blank"
+            className="font-bold text-center text-[#4D4A23] bg-[#807B3B0F] border border-[#807B3B] p-3 rounded-3xl"
+          >
+            بلد
+          </Link>
+          <Link
+            href="https://neshan.org/maps/@35.768786,51.03748,15z,0p/places/a8cd9e96717da82486274304e6d7f87f"
+            target="_blank"
+            className="font-bold text-center text-[#4D4A23] bg-[#807B3B0F] border border-[#807B3B] p-3 rounded-3xl"
+          >
+            نشان
+          </Link>
+        </div>
         <Image
           src="/images/bottom.png"
           alt="bottom image"
