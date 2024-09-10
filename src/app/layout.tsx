@@ -14,6 +14,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: "Dorna & Alireza",
   description: "Wedding Ceremony",
+  metadataBase: new URL("https://dorna-alireza.ir/"),
   openGraph: {
     title: "Dorna & Alireza",
     description: "Wedding Ceremony",
