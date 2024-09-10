@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Dorna & Alireza",
     description: "Wedding Ceremony",
-    url: "https://dorna-alireza.vercel.app/",
+    url: "https://dorna-alireza.ir/",
     siteName: "Dorna & Alireza",
     images: [
       {

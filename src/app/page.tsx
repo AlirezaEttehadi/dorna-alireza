@@ -68,6 +68,8 @@ export default function Home() {
             width={382}
             height={450}
             className="w-[382px] h-[450px]"
+            priority
+            quality={100}
           />
         </div>
         <div className="flex justify-between w-full gap-4 leading-none mt-6">
@@ -120,6 +122,7 @@ export default function Home() {
               width={173}
               height={238}
               className="w-[173px] h-[238px]"
+              quality={100}
             />
             <Image
               src="/images/month.png"
@@ -127,6 +130,7 @@ export default function Home() {
               width={173}
               height={238}
               className="w-[173px] h-[238px]"
+              quality={100}
             />
             <Image
               src="/images/year.png"
@@ -134,6 +138,7 @@ export default function Home() {
               width={195}
               height={238}
               className="w-[195px] h-[238px]"
+              quality={100}
             />
           </div>
         </div>
@@ -161,6 +166,8 @@ export default function Home() {
           width={430}
           height={200}
           className="w-[430px] h-[200px] bottom-0 fixed xs:hidden"
+          quality={100}
+          priority
         />
       </div>
     </div>
